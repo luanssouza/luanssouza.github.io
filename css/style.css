@@ -4,9 +4,15 @@ body {
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .main {
   flex-grow: 9.5;
   padding: 10px;
+  padding-left: 20px;
+}
+
+hr {
+  border-top: #3d3d3d;
 }
 
 .side {
@@ -45,4 +51,18 @@ a:active {
 /* Name */
 .profile-name {
   margin-bottom: 0px;
+}
+
+/* Formation */
+.formation-item {
+  padding-left: 20px;
+}
+
+.formation-item > h3 {
+  margin-bottom: 10px;
+}
+
+.formation-item > p {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
