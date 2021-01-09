@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.main {
+    flex-grow: 8;
+}
+
+.side {
+    flex-grow: 2;
+}
