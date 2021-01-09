@@ -1,24 +1,28 @@
 body {
-  display: flex;
-  align-items: stretch;
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
-  flex-grow: 9.5;
-  padding: 10px;
-  padding-left: 20px;
+@media only screen and (min-width: 818px) {
+  body {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .main {
+    flex-grow: 9.5;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .side {
+    flex-grow: 0.5;
+    padding: 20px;
+    border-right: 1px solid black;
+  }
 }
 
 hr {
   border-top: #3d3d3d;
-}
-
-.side {
-  flex-grow: 0.5;
-  padding: 20px;
-  border-right: 1px solid black;
 }
 
 /* Styling Links */
@@ -51,6 +55,7 @@ a:active {
 /* Name */
 .profile-name {
   margin-bottom: 0px;
+  text-align: center;
 }
 
 /* Formation */
