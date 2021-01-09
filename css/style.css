@@ -80,3 +80,17 @@ a:active {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+
+/* Research */
+.research-item {
+  padding-left: 20px;
+}
+
+.research-item > h3 {
+  margin-bottom: 10px;
+}
+
+.research-item > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
