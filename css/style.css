@@ -94,3 +94,17 @@ a:active {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* About */
+.about-item {
+  padding-left: 20px;
+}
+
+.about-item > h3 {
+  margin-bottom: 10px;
+}
+
+.about-item > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
