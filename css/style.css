@@ -14,10 +14,34 @@ body {
     padding: 10px;
     padding-left: 20px;
   }
+
   .side {
     flex-grow: 0.5;
     padding: 20px;
     border-right: 1px solid black;
+  }
+
+  .profile-image {
+    float:left;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+
+  /* Image */
+  .profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .side {
+    padding: 10px;
   }
 }
 
@@ -47,7 +71,6 @@ a:active {
 /* Side Name */
 .side-name {
   margin-bottom: 0px;
-  text-align: center;
 }
 
 /* Side Menu */
@@ -85,19 +108,15 @@ a:active {
 .side-menu li a {
   padding: 8px 16px; 
   display: block; 
-  width: 100%; 
+  width: 88%; 
   height: 100%; 
 }
 
-
 /* Profile */
+
 /* Image */
 .profile-image {
   width: 200px;
-  border-radius: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Name */
